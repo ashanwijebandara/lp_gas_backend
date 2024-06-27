@@ -35,7 +35,7 @@ app.use("/payment",paymentRouter);
  
 
 app.use(express.json())
-app.listen(3001,() =>{
+app.listen(3010,() =>{
     console.log("server is running")
 })
  
